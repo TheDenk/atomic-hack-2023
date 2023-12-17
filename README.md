@@ -3,7 +3,7 @@
 Проект содержит скрипты для обучения / инференса моделей для хакатона.
 Цель данного исследования заключалась в разработке модели для автоматического обнаружения дефектов на поверхности трубы. Были предоставили только абстрактные точки дефектов, на основе которых использовалась модель SAM для определения областей дефектов на изображениях. 
 <p>
-    <img src="./images/example.jpg" width="600" height="300" title="content_style_approach"/>
+    <img src="./images/2ez.gif" width="600" height="300" title="content_style_approach"/>
 </p>
 
 #### Files:
@@ -36,6 +36,10 @@ pip -r install requirements.txt
 
 ## Демонстрационное Flask приложение для детектирования дефектов на трубе
 Файлы приложения находятся в папке web-ap
+
+<p>
+    <img src="./images/site.jpg" width="600" height="400" title="content_style_approach"/>
+</p>
 
 #### Cтавим requirements  
 ```bash
