@@ -1,0 +1,13 @@
+opencv-python==4.5.2.54
+numpy==1.21.0
+matplotlib==3.3.3
+Flask==2.0.1
+Flask-Login==0.5.0
+Werkzeug==2.0.0
+PyYAML>=5.3.1
+tqdm>=4.41.0
+pandas==1.2.5
+requests==2.23.0
+imutils
+pip install git+https://github.com/facebookresearch/segment-anything.git
+pip install ultralytics

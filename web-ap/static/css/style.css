@@ -1,0 +1,91 @@
+html {
+    height: 100%;
+}
+
+#header-wrapper{
+    width: 100%;
+    height: 100vh;
+    background: url('../img/site/bg.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: auto;
+
+}
+
+#header{
+    height: 60%;
+    width: 100%;
+
+}
+
+#h1-header {
+    color: aliceblue;
+    font-size: 60px;
+}
+
+#text-header {
+    color: aliceblue;
+    font-size: 18px;
+}
+
+#answer {
+    width: 100%;
+    height: 100vh;
+    background: url('../img/site/answer_bg.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: auto;
+}
+
+#text {
+    font-size: 18px;
+}
+
+#header-link {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+
+.custom-file-label::after {
+    content: "Обзор";
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+.answer-wrapper {
+    height: 650px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.orig-wrapper {
+    width: 1000px;
+    height: 650px;
+}
+
+.crop-wrapper {
+    width: 512px;
+    height: 128px;
+    text-align: center;
+}
+
+.uploaded-img {
+    max-width: 100%;
+   max-height: 100%;
+   margin: auto;
+   display: block;
+}
+
+.text-folder {
+    color: aliceblue;
+}
